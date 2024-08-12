@@ -262,7 +262,7 @@ function radar_visualization(config) {
       .attr("r", rings[i].radius)
       .style("fill", "none")
       .style("stroke", config.colors.grid)
-      .style("stroke-width", 1);
+      .style("stroke-width", 2);
     if (config.print_layout) {
       grid.append("text")
         .text(config.rings[i].name)
